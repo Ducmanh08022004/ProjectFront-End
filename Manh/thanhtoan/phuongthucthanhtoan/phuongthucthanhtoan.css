@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.textbox {
+    width: 55%;
+}
+.textbox h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.textbox h2 {
+    font-size: 20px;
+    margin: 20px 0 10px;
+}
+.thanhtoan {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+
+}
+.thanhtoan-luachon {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.thanhtoan-luachon .icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.link1 {
+    display: flex;
+    gap: 5px;
+    font-size: 14px;
+    color: #555;
+}
+.link1 .text1 {
+    color: #3C8190;
+}
+.link2 {
+    display:  flex;
+}
+.luachon {
+    align-items: center;
+    display: inline;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.btn-next {
+    width: 50%;
+    padding: 15px;
+    margin-left: 260px;
+    background-color: #3C96AA;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.xacnhan {
+    width: 40%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.item img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.item-info {
+    flex-grow: 1;
+}
+.sanpham-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.sanpham-size {
+    font-size: 14px;
+    color: #555;
+}
+
+.sanpham-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 15px 0;
+}
+
+.discount {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.discount input {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-apply {
+    padding: 10px 15px;
+    background-color: #ccc;
+    color: #555;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tamtinh,
+.total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.total h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.total p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}

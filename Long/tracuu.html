@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Dat/template.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b988e014d3.js" crossorigin="anonymous"></script>
+    <title>Kiểm tra đơn hàng</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="tracuu.css">
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-left">
+            <a href="/index.html">
+                <h1 style="display: inline; padding-right: 5%;">L'79</h1>
+            </a>
+            <input type="text" placeholder="Bạn muốn tìm gì...">
+            <a href="/Bonus/LONG/TimKiem.html"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
+        </div>
+        <div class="header-right">
+            <a href="/Long/gioithieu.html">
+                <p>Về cửa hàng</p>
+            </a>
+            <div style="display: inline;" class="product">
+                <a href="/Bonus/LONG/TimKiem.html">
+                    <p style="padding-right: 1%;">Sản phẩm</p><i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <div class="product-content">
+                    <a href="/Bonus/LONG/TimKiem.html">Hàng mới</a>
+                    <a href="/Bonus/LONG/TimKiem.html">Trending</a>
+                    <a href="/Bonus/LONG/TimKiem.html">Flash Sale</a>
+                </div>
+            </div>
+
+            <a href="/Long/tracuu.html">
+                <p>Tra cứu đơn hàng</p>
+            </a>
+            <a href="/Bonus/TRUNG/loginpage.html">
+                <p style="padding-right: 1%;">Tài khoản</p><i class="fa-solid fa-user fa-xl"></i>
+            </a>
+            <a href="/Bonus/sanphamyeuthich.html">
+                <p style="padding-right: 1%;">Yêu thích</p><i class="fa-solid fa-heart fa-xl"></i>
+            </a>
+            <a href="/Manh/giohang/giohang.html">
+                <p style="padding-right: 1%;">Giỏ hàng</p><i class="fa-solid fa-bag-shopping fa-xl"></i>
+            </a>
+        </div>
+    </div>
+
+<div class="container content-wrapper">
+    <div class="row">
+        <div class="col-md-8">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/index.html">Trang chủ</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Kiểm tra tình trạng đơn hàng</li>
+                </ol>
+            </nav>
+            <h1 class="mt-2 mb-4">Kiểm tra tình trạng đơn hàng</h1>
+            <div class="order-check-container">
+                <h5 class="text-black mb-4">Kiểm tra đơn hàng của bạn</h5>
+                <form>
+                    <div class="form-group">
+                        <label for="checkMethod">Phương thức kiểm tra</label><br>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" id="phone" name="checkMethod" value="phone" checked>
+                            <label class="form-check-label" for="phone">Số điện thoại</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" id="email" name="checkMethod" value="email">
+                            <label class="form-check-label" for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneNumber">Số điện thoại:</label>
+                        <input type="text" class="form-control" id="phoneNumber" placeholder="0909 xxx xxx">
+                    </div>
+                    <button type="submit" class="btn-check mt-3">Xem ngay</button>
+                </form>
+                <p class="mt-3 text-center">Nếu quý khách có bất kỳ thắc mắc nào, xin vui lòng gọi <strong>0961 988 840</strong></p>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <h5 class="sidebar-title">DANH MỤC KHÁC</h5>
+            <ul class="list-unstyled">
+                <li><a href="/Bonus/LONG/TimKiem.html">Hàng mới</a></li>
+                <li><a href="/Bonus/LONG/TimKiem.html">Trending</a></li>
+                <li><a href="/Bonus/LONG/TimKiem.html">Flash Sale</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="f-left" style="padding-left: 10%;">
+        <h1 style="margin: 5px;">L'79</h1>
+        <p>Thương hiệu bán giày uy tín hàng đầu Việt Nam</p>
+        <p style="font-weight: bold; margin-top: 10px;">Địa chỉ</p>
+        <p>Cơ sở 1: Số 678 Thái Hà, Trung Liệt, Đống Đa, Hà Nội</p>
+        <p>Cơ sở 2: 103/78 Đ. Lê Văn Thọ, Phường 11, Gò Vấp, Hồ Chí Minh</p>
+        <p style="font-weight: bold; margin-top: 10px;">Hotline:</p>
+        <p>0123456789</p>
+        <p style="font-weight: bold; margin-top: 10px;">Email:</p>
+        <p>chamsockhachhang@l79.com.vn</p>
+    </div>
+    <div class="f-center">
+        <p style="font-weight: bold; font-size: 18px;">Chính sách và điều khoản</p>
+        <a href="#"><p>Chính sách thanh toán</p></a>
+        <a href="#"><p>Chính sách kiểm hàng</p></a>
+        <a href="#"><p>Chính sách đổi trả và hoàn tiền</p></a>
+        <a href="#"><p>Chính sách bảo hành</p></a>
+        <a href="#"><p>Chính sách vận chuyển</p></a>
+    </div>
+    <div class="f-right" style="padding-right: 10%;">
+        <p style="font-weight: bold; font-size: 18px;">Trợ giúp</p>
+        <a href="#"><p>Tuyển dụng</p></a>
+        <a href="#"><p>Liên hệ hợp tác</p></a>
+        <a href="#"><p>Q&A</p></a>
+        <a href="#"><p>Hướng dẫn sử dụng</p></a>
+    </div> 
+</div>
+
+</body>
+</html>

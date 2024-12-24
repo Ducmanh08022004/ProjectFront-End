@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+.link1 {
+    display: block;
+    font-size: 14px;
+}
+.navbar-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+}
+.cart-items {
+    width: 65%;
+}
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.cart-item img {
+    width: 80px;
+    margin-right: 40px;
+}
+.sanpham-name {
+    font-size: 18px;
+    margin: 0;
+}
+.sanpham-price {
+    font-size: 18px;
+    color: #E64A19;
+    margin: auto;
+}
+.sanpham-size {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+.soluong {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.soluong button {
+    width: 30px;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 18px;
+
+}
+.soluong input {
+    width: 40px;
+    text-align: center;
+    border: 1px  #ddd;
+    margin: 0 5px;
+}
+
+.remove {
+    color: #000000;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.thongtindonhang {
+    width: 30%;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.thongtindonhang h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.thongtindonhang p {
+    font-size: 16px;
+    color: #555;
+    display: flex;
+    justify-content: space-between;
+}
+
+.thongtindonhang span {
+    font-weight: bold;
+}
+
+.checkout {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF5733;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout:hover {
+    background-color: #E64A19;
+}
+
+
